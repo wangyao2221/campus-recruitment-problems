@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="" />
+    <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xiaomi0908/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xiaomi0908/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -35,25 +39,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599309423207</updated>
-      <workItem from="1599309427270" duration="358000" />
+      <workItem from="1599309427270" duration="585000" />
+      <workItem from="1599310016781" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="xiaomi0908">
       <created>1599309690817</created>
@@ -74,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599309690817</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="xiaomi0908">
+      <created>1599309788949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599309788949</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +81,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xiaomi0908" />
     <option name="LAST_COMMIT_MESSAGE" value="xiaomi0908" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1599309788391">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309788391" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599309741308">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309741308" />
+    <state x="477" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599309958968">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309958968" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599310159997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599310159997" />
   </component>
 </project>
