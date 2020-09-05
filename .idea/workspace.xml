@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xiaomi0908/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xiaomi0908/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +41,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -30,6 +52,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1h5medl5dUMc7SncjAznVWNRUti" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +62,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -49,6 +71,19 @@
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -62,8 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599309423207</updated>
-      <workItem from="1599309427270" duration="585000" />
-      <workItem from="1599310016781" duration="188000" />
+      <workItem from="1599309427270" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="xiaomi0908">
       <created>1599309690817</created>
@@ -72,39 +106,35 @@
       <option name="project" value="LOCAL" />
       <updated>1599309690817</updated>
     </task>
-    <task id="LOCAL-00002" summary="xiaomi0908">
-      <created>1599309788949</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599309788949</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xiaomi0908" />
     <option name="LAST_COMMIT_MESSAGE" value="xiaomi0908" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1599309788391">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599310873245">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309788391" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599309741308">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309741308" />
-    <state x="477" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599309958968">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="477" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309958968" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599310159997">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599310159997" />
+    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599310873245" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="tiger0823.Main1$ListNode" memberName="val" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/find_job$Main2__2_.ic" NAME="Main2 (2) Coverage Results" MODIFIED="1598355643348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>shenxinfu0825.*</FILTER>
+    </SUITE>
   </component>
 </project>
