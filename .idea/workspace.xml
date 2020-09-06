@@ -26,8 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tencent0906/wy/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tencent0906/wy/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tencent0906/wy/Main4Error.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +169,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -188,6 +199,10 @@
     </state>
     <state x="286" y="2" key="CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311043231" />
     <state x="286" y="2" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599391240221" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1599397073619">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1599397073619" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1599357161286">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -213,6 +228,10 @@
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311045796" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599391244662" />
+    <state x="-130" y="162" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1599397073619">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="-130" y="162" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1599397073619" />
     <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599310873245">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
