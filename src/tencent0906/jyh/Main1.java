@@ -5,4 +5,7 @@ package tencent0906.jyh;
  * @date 2020/9/6 19:20
  */
 public class Main1 {
+    public static void main(String[] args) {
+
+    }
 }
