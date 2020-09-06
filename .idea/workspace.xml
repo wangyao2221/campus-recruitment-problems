@@ -26,15 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tencent0906/jyh/Tencent02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tencent0906/wy/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tencent0906/wy/Main1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,11 +53,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
   <component name="ProjectId" id="1h5medl5dUMc7SncjAznVWNRUti" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,7 +66,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../微云同步助手/1649107272/Weekly/campus-recruitment-problems" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -80,19 +80,25 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Tencent02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tencent0906.jyh.Tencent02" />
+      <module name="campus-recruitment-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tencent0906.jyh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tencent02" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -104,9 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599309423207</updated>
       <workItem from="1599309427270" duration="358000" />
-      <workItem from="1599314597483" duration="872000" />
-      <workItem from="1599318434770" duration="685000" />
-      <workItem from="1599356731775" duration="430000" />
+      <workItem from="1599391624655" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="xiaomi0908">
       <created>1599309690817</created>
@@ -152,14 +156,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="xiaomi0908" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="391" y="177" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1599395257029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="177" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1599395257029" />
     <state x="286" y="2" key="CommitChangelistDialog2" timestamp="1599311043231">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="286" y="2" key="CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311043231" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1599357161286">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1322" height="215" key="GridCell.Tab.0.bottom" timestamp="1599396199851">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1599357161286" />
+    <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599396199851" />
+    <state width="1322" height="215" key="GridCell.Tab.0.center" timestamp="1599396199851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599396199851" />
+    <state width="1322" height="215" key="GridCell.Tab.0.left" timestamp="1599396199849">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599396199849" />
+    <state width="1322" height="215" key="GridCell.Tab.0.right" timestamp="1599396199851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599396199851" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1599311045796">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -168,11 +188,15 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599310873245" />
+    <state x="384" y="109" key="refactoring.ChangeSignatureDialog" timestamp="1599394991239">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="109" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599394991239" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
       <pinned-members>
-        <PinnedItemInfo parentTag="tiger0823.Main1$ListNode" memberName="val" />
+        <PinnedItemInfo />
       </pinned-members>
     </pin-to-top-manager>
   </component>

@@ -1,0 +1,110 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"BRANCH:master\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5a116ec0-6323-4153-b6fa-84ac0afdd82f\" name=\"Default Changelist\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"F:\\MavenRepo\\repository\" />\r\n        <option name=\"userSettingsFile\" value=\"C:\\Users\\Jiyonghao\\.m2\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1h5medl5dUMc7SncjAznVWNRUti\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"MavenSettings\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"GradleAppRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" PASS_PARENT_ENVS_2=\"true\">\r\n      <method v=\"2\">\r\n        <option name=\"com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5a116ec0-6323-4153-b6fa-84ac0afdd82f\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1599309423207</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1599309423207</updated>\r\n      <workItem from=\"1599309427270\" duration=\"358000\" />\r\n      <workItem from=\"1599391624655\" duration=\"541000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"xiaomi0908\">\r\n      <created>1599309690817</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599309690817</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"xiaomi0908\">\r\n      <created>1599310900636</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599310900636</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"xiaomi0908\">\r\n      <created>1599311044635</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599311044635</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"xiaomi0908\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"xiaomi0908\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"286\" y=\"2\" key=\"CommitChangelistDialog2\" timestamp=\"1599311043231\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"286\" y=\"2\" key=\"CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834\" timestamp=\"1599311043231\" />\r\n    <state x=\"361\" y=\"150\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1599311045796\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"361\" y=\"150\" key=\"Vcs.Push.Dialog.v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834\" timestamp=\"1599311045796\" />\r\n    <state x=\"573\" y=\"330\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1599310873245\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"573\" y=\"330\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834\" timestamp=\"1599310873245\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <pin-to-top-manager>\r\n      <pinned-members>\r\n        <PinnedItemInfo />\r\n      </pinned-members>\r\n    </pin-to-top-manager>\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/find_job$Main2__2_.ic\" NAME=\"Main2 (2) Coverage Results\" MODIFIED=\"1598355643348\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>shenxinfu0825.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision b4eabe9380b0273c835210f4e04d770d7824b084)
++++ .idea/workspace.xml	(date 1599394768202)
+@@ -25,7 +25,10 @@
+     </select>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="" />
++    <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/src/tencent0906/jyh/Tencent02.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -50,7 +53,9 @@
+     </option>
+   </component>
+   <component name="ProjectId" id="1h5medl5dUMc7SncjAznVWNRUti" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -60,6 +65,12 @@
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.path.for.package.eslint" value="project" />
++    <property name="node.js.path.for.package.tslint" value="project" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="project.structure.last.edited" value="Project" />
+     <property name="project.structure.proportion" value="0.0" />
+@@ -84,7 +95,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1599309423207</updated>
+       <workItem from="1599309427270" duration="358000" />
+-      <workItem from="1599391624655" duration="541000" />
++      <workItem from="1599391624655" duration="3028000" />
+     </task>
+     <task id="LOCAL-00001" summary="xiaomi0908">
+       <created>1599309690817</created>
+@@ -138,9 +149,10 @@
+       <screen x="0" y="0" width="1536" height="834" />
+     </state>
+     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311045796" />
+-    <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599310873245">
+-      <screen x="0" y="0" width="1536" height="834" />
++    <state x="510" y="288" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599392165851">
++      <screen x="0" y="0" width="1366" height="728" />
+     </state>
++    <state x="510" y="288" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1599392165851" />
+     <state x="573" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599310873245" />
+   </component>
+   <component name="XDebuggerManager">
+Index: src/tencent0906/jyh/Tencent02.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- src/tencent0906/jyh/Tencent02.java	(date 1599394828653)
++++ src/tencent0906/jyh/Tencent02.java	(date 1599394828653)
+@@ -0,0 +1,35 @@
++package tencent0906.jyh;
++
++import java.lang.reflect.Array;
++import java.util.ArrayList;
++import java.util.HashMap;
++import java.util.List;
++import java.util.Scanner;
++
++public class Tencent02 {
++    public static void main(String[] args) {
++        Scanner in = new Scanner(System.in);
++        int n = in.nextInt();
++        int m = in.nextInt();
++        List<ArrayList<Integer>> list = new ArrayList<>();
++        HashMap<Integer,ArrayList<Integer>> map = new HashMap<>();
++        for (int i = 0; i < m; i++) {
++            list.add(new ArrayList<Integer>());
++        }
++        for (int i = 0; i < m; i++) {
++            int num = in.nextInt();
++            List<Integer> tmpList = new ArrayList<>();
++            for (int j = 0; j < num; j++) {
++                int tmp = in.nextInt();
++                tmpList.add(tmp);
++                if(!map.containsKey(tmp)){
++                    map.put(tmp,i);
++                }
++                else {
++
++                }
++//                list.get(i).add(tmp);
++            }
++        }
++    }
++}

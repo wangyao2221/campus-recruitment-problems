@@ -1,0 +1,28 @@
+Index: out/production/campus-recruitment-problems/history/bytedance0823/test
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- out/production/campus-recruitment-problems/history/bytedance0823/test	(date 1599311523991)
++++ out/production/campus-recruitment-problems/history/bytedance0823/test	(date 1599311523991)
+@@ -0,0 +1,20 @@
++3
++6
++9 12
++2 11
++1 3
++6 10
++5 7
++4 8
++5
++1 3
++2 4
++5 9
++6 8
++7 10
++5
++5 8
++3 6
++2 9
++7 10
++1 4
