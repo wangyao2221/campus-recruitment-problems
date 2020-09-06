@@ -35,14 +35,14 @@ public class Main4Error {
                 }
             }
         } else {
-            int middle = 2;
+            int middle = size / 2;
             for (int i = 0; i < n; i++) {
                 if (i < middle) {
-                    System.out.println((arr[middle] + arr[middle + 1]) / 2.0);
+                    System.out.println((arr[middle] + arr[middle + 1]) / 2);
                 } else if (i == middle) {
-                    System.out.println((arr[middle - 1] + arr[middle + 1]) / 2.0);
+                    System.out.println((arr[middle - 1] + arr[middle + 1]) / 2);
                 } else {
-                    System.out.println((arr[middle - 1] + arr[middle]) / 2.0);
+                    System.out.println((arr[middle - 1] + arr[middle]) / 2);
                 }
             }
         }
