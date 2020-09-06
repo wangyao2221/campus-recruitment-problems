@@ -26,9 +26,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tencent0906/jyh/Ten03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tencent0906/jyh/ten04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tencent0906/jyh/Tencent02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tencent0906/jyh/Tencent02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
