@@ -46,34 +46,4 @@ public class Tencent02 {
         System.out.println(set.size());
     }
 
-//    public static void main(String[] args) {
-//        Scanner in = new Scanner(System.in);
-//        int n = in.nextInt();
-//        int m = in.nextInt();
-//        List<ArrayList<Integer>> list = new ArrayList<>();
-//        HashMap<Integer,ArrayList<Integer>> map = new HashMap<>();
-//        for (int i = 0; i < m; i++) {
-//            list.add(new ArrayList<Integer>());
-//        }
-//        for (int i = 0; i < m; i++) {
-//            int num = in.nextInt();
-//            List<Integer> tmpList = new ArrayList<>();
-//            for (int j = 0; j < num; j++) {
-//                int tmp = in.nextInt();
-//                tmpList.add(tmp);
-////                if(!map.containsKey(tmp)){
-////                    ArrayList<Integer> tList = new ArrayList<>();
-////                    tList.add(i);
-////                    map.put(tmp,tList);
-////                }
-////                else {
-////                    ArrayList<Integer> tt = map.get(tmp);
-////                    tt.add(i);
-////                    map.put(tmp,tt);
-////                }
-//            }
-//            list.get(i).addAll(tmpList);
-//        }
-//
-//    }
 }
