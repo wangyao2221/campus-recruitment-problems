@@ -60,6 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -83,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599309423207</updated>
       <workItem from="1599309427270" duration="358000" />
+      <workItem from="1599391624655" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="xiaomi0908">
       <created>1599309690817</created>
@@ -144,7 +146,7 @@
   <component name="XDebuggerManager">
     <pin-to-top-manager>
       <pinned-members>
-        <PinnedItemInfo parentTag="tiger0823.Main1$ListNode" memberName="val" />
+        <PinnedItemInfo />
       </pinned-members>
     </pin-to-top-manager>
   </component>
