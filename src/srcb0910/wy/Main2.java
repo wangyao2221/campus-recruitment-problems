@@ -1,4 +1,4 @@
-package srcb0910;
+package srcb0910.wy;
 
 import java.util.Scanner;
 
