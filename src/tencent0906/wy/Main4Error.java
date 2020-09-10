@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author wangyao2221
  * @date 2020/9/6 20:24
  */
-public class Main4PassAll {
+public class Main4Error {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
