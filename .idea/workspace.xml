@@ -26,20 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/huawei0909/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/huawei0909/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/huawei0909/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/srcb0910/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tencent0906/wy/Main03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tencent0906/wy/Ten03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wenjing0910/CPUCacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wenjing0910/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wenjing0910/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/srcb0910/wy/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zjs0911/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zjs0911/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zjs0911/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zjs0911/Main5New.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tencent0906/jyh/Ten03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tencent0906/jyh/Ten03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tencent0906/wy/Main02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tencent0906/wy/Main02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tencent0906/wy/Main4PassAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tencent0906/wy/Main4Error.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/history/zhongjinsuo0827/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zjs0911/Main2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,31 +87,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Main2 (1)">
+  <component name="RunManager" selected="Application.Main5New">
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CPUCacheTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wenjing0910.CPUCacheTest" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="history.zjs0911.Main2" />
       <module name="campus-recruitment-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wenjing0910.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="srcb0910.Main2" />
-      <module name="campus-recruitment-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="srcb0910.*" />
+          <option name="PATTERN" value="history.zjs0911.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +107,11 @@
       </method>
     </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wenjing0910.Main2" />
+      <option name="MAIN_CLASS_NAME" value="srcb0910.wy.Main2" />
       <module name="campus-recruitment-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wenjing0910.*" />
+          <option name="PATTERN" value="srcb0910.wy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +120,11 @@
       </method>
     </configuration>
     <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="huawei0909.Main3" />
+      <option name="MAIN_CLASS_NAME" value="history.zjs0911.Main3" />
       <module name="campus-recruitment-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="huawei0909.*" />
+          <option name="PATTERN" value="history.zjs0911.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,8 +132,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="history.zjs0911.Main4" />
+      <module name="campus-recruitment-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="history.zjs0911.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main5New" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="history.zjs0911.Main5New" />
+      <module name="campus-recruitment-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="history.zjs0911.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="campus-recruitment-problems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +180,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2 (1)" />
-        <item itemvalue="Application.CPUCacheTest" />
-        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main5New" />
         <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Main4" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +206,9 @@
       <workItem from="1599648856300" duration="8100000" />
       <workItem from="1599659535191" duration="882000" />
       <workItem from="1599703854033" duration="2973000" />
-      <workItem from="1599736339806" duration="637000" />
+      <workItem from="1599736339806" duration="3062000" />
+      <workItem from="1599741950457" duration="729000" />
+      <workItem from="1599819505201" duration="7320000" />
     </task>
     <task id="LOCAL-00001" summary="xiaomi0908">
       <created>1599309690817</created>
@@ -223,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599311044635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="srcb0910 第2题算法题">
+      <created>1599737029851</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599737029851</updated>
+    </task>
+    <task id="LOCAL-00005" summary="srcb0910 第2题算法题">
+      <created>1599737047672</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599737047672</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +256,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -243,7 +277,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xiaomi0908" />
-    <option name="LAST_COMMIT_MESSAGE" value="xiaomi0908" />
+    <MESSAGE value="srcb0910 第2题算法题" />
+    <option name="LAST_COMMIT_MESSAGE" value="srcb0910 第2题算法题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1599649578896">
@@ -254,30 +289,35 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="177" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1599395257029" />
-    <state x="286" y="2" key="CommitChangelistDialog2" timestamp="1599311043231">
+    <state x="286" y="2" key="CommitChangelistDialog2" timestamp="1599737046424">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="286" y="2" key="CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311043231" />
-    <state width="1492" height="214" key="GridCell.Tab.0.bottom" timestamp="1599736902456">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="286" y="2" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599737046424" />
+    <state width="1876" height="65" key="GridCell.Tab.0.bottom" timestamp="1599828585801">
+      <screen x="-5" y="-1080" width="1920" height="1050" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599396199851" />
-    <state width="1492" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599736902456" />
-    <state width="1492" height="214" key="GridCell.Tab.0.center" timestamp="1599736902456">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1876" height="65" key="GridCell.Tab.0.bottom/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1599828585801" />
+    <state width="1492" height="168" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599822615623" />
+    <state width="1876" height="65" key="GridCell.Tab.0.center" timestamp="1599828585801">
+      <screen x="-5" y="-1080" width="1920" height="1050" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599396199851" />
-    <state width="1492" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1599736902456" />
-    <state width="1492" height="214" key="GridCell.Tab.0.left" timestamp="1599736902456">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1876" height="65" key="GridCell.Tab.0.center/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1599828585801" />
+    <state width="1492" height="168" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1599822615623" />
+    <state width="1876" height="65" key="GridCell.Tab.0.left" timestamp="1599828585801">
+      <screen x="-5" y="-1080" width="1920" height="1050" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599396199849" />
-    <state width="1492" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1599736902456" />
-    <state width="1492" height="214" key="GridCell.Tab.0.right" timestamp="1599736902456">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1876" height="65" key="GridCell.Tab.0.left/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1599828585801" />
+    <state width="1492" height="168" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1599822615623" />
+    <state width="1876" height="65" key="GridCell.Tab.0.right" timestamp="1599828585801">
+      <screen x="-5" y="-1080" width="1920" height="1050" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599396199851" />
-    <state width="1492" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1599736902456" />
+    <state width="1876" height="65" key="GridCell.Tab.0.right/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1599828585801" />
+    <state width="1492" height="168" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1599822615623" />
     <state width="1492" height="201" key="GridCell.Tab.1.bottom" timestamp="1599657304936">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -294,10 +334,15 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1492" height="201" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1599657304936" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1599311045796">
+    <state x="403" y="177" key="MultipleFileMergeDialog" timestamp="1599737065270">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="403" y="177" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1599737065270" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1599737094116">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311045796" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599737094116" />
     <state width="631" height="832" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1599704765449">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -310,6 +355,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="176" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1599400496412" />
+    <state x="468" y="149" width="600" height="536" key="find.popup" timestamp="1599821210572">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="468" y="149" width="600" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1599821210572" />
     <state x="384" y="109" key="refactoring.ChangeSignatureDialog" timestamp="1599394991239">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
