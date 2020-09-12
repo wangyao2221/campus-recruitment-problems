@@ -25,16 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/srcb0910/wy/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zjs0911/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zjs0911/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zjs0911/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zjs0911/Main5New.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/history/zhongjinsuo0827/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zjs0911/Main2.java" afterDir="false" />
-    </list>
+    <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,6 +200,7 @@
       <workItem from="1599736339806" duration="3062000" />
       <workItem from="1599741950457" duration="729000" />
       <workItem from="1599819505201" duration="7320000" />
+      <workItem from="1599887907732" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="xiaomi0908">
       <created>1599309690817</created>
@@ -245,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599737047672</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="网易0912">
+      <created>1599888086559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599888086559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +277,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xiaomi0908" />
     <MESSAGE value="srcb0910 第2题算法题" />
-    <option name="LAST_COMMIT_MESSAGE" value="srcb0910 第2题算法题" />
+    <MESSAGE value="网易0912" />
+    <option name="LAST_COMMIT_MESSAGE" value="网易0912" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1599649578896">
@@ -370,15 +370,6 @@
     <state x="389" y="56" width="756" height="777" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1599652387937" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo />
