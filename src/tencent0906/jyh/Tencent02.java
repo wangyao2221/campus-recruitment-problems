@@ -11,6 +11,7 @@ public class Tencent02 {
         int m = in.nextInt();
         if(n == 0 || m == 0){
             System.out.println(0);
+            return;
         }
         List<HashSet<Integer>> list = new ArrayList<>();
         HashSet<Integer> set = new HashSet<Integer>();
@@ -29,6 +30,15 @@ public class Tencent02 {
             if(flag == 1)set.addAll(tmpSet);
         }
 
+        for (int i = 0; i < list.size(); i++) {
+            Iterator<Integer> it = list.get(i).iterator();
+            while(it.hasNext()) {
+                if(set.contains(it.next())) {
+                    set.addAll(list.get(i));
+                    break;
+                }
+            }
+        }
         for (int i = 0; i < list.size(); i++) {
             Iterator<Integer> it = list.get(i).iterator();
             while(it.hasNext()) {

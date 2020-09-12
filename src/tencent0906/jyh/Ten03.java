@@ -20,7 +20,6 @@ public class Ten03 {
 
         ArrayList<Map.Entry<String,Integer>> allCom = new ArrayList<>(map.entrySet()) ;
         ArrayList<Map.Entry<String,Integer>> leaveCom = new ArrayList<>(map.entrySet()) ;
-//        ArrayList<Map.Entry<String,Integer>> leaveCom = (ArrayList<Map.Entry<String, Integer>>) allCom.clone();
         allCom.sort(new Comparator<Map.Entry<String, Integer>>() {
             @Override
             public int compare(Map.Entry<String, Integer> stringIntegerEntry, Map.Entry<String, Integer> t1) {
