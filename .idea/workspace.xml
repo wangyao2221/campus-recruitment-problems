@@ -26,10 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="xiaomi0908">
-      <change afterPath="$PROJECT_DIR$/src/netease0912/jyh/wangyi02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/netease0912/jyh/wangyi03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/netease0912/wy/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/netease0912/wy/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/netease0912/wy/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/campus-recruitment-problems/xiaomi0908/gt/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netease0912/jyh/wangyi01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/netease0912/jyh/wangyi01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +81,23 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.wangyi03">
+  <component name="RunManager" selected="Application.Main2">
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netease0912.wy.Main2" />
+      <module name="campus-recruitment-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netease0912.wy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Tencent02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -92,32 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tencent0906.jyh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="wangyi02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netease0912.jyh.wangyi02" />
-      <module name="campus-recruitment-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netease0912.jyh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="wangyi03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netease0912.jyh.wangyi03" />
-      <module name="campus-recruitment-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netease0912.jyh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,10 +126,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.wangyi03" />
-        <item itemvalue="Application.wangyi02" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.xiecheng01" />
         <item itemvalue="Application.Tencent02" />
       </list>
@@ -216,42 +216,46 @@
     </state>
     <state x="254" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599400338296" />
     <state x="286" y="2" key="CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311043231" />
-    <state width="1322" height="122" key="GridCell.Tab.0.bottom" timestamp="1599898761981">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1492" height="199" key="GridCell.Tab.0.bottom" timestamp="1599900082586">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1322" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599898761981" />
+    <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599567515441" />
+    <state width="1492" height="199" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599900082586" />
     <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1322" height="122" key="GridCell.Tab.0.center" timestamp="1599898761981">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1492" height="199" key="GridCell.Tab.0.center" timestamp="1599900082585">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1322" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599898761981" />
+    <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599567515440" />
+    <state width="1492" height="199" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
     <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1322" height="122" key="GridCell.Tab.0.left" timestamp="1599898761981">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1492" height="199" key="GridCell.Tab.0.left" timestamp="1599900082585">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1322" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599898761981" />
+    <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599567515440" />
+    <state width="1492" height="199" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
     <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1322" height="122" key="GridCell.Tab.0.right" timestamp="1599898761981">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1492" height="199" key="GridCell.Tab.0.right" timestamp="1599900082585">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1322" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599898761981" />
+    <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599567515441" />
+    <state width="1492" height="199" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
     <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1322" height="153" key="GridCell.Tab.1.bottom" timestamp="1599898658027">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1492" height="199" key="GridCell.Tab.1.bottom" timestamp="1599900082585">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1322" height="153" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599898658027" />
-    <state width="1322" height="153" key="GridCell.Tab.1.center" timestamp="1599898658027">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1492" height="199" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
+    <state width="1492" height="199" key="GridCell.Tab.1.center" timestamp="1599900082585">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1322" height="153" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599898658027" />
-    <state width="1322" height="153" key="GridCell.Tab.1.left" timestamp="1599898658027">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1492" height="199" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
+    <state width="1492" height="199" key="GridCell.Tab.1.left" timestamp="1599900082585">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1322" height="153" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599898658027" />
-    <state width="1322" height="153" key="GridCell.Tab.1.right" timestamp="1599898658027">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1492" height="199" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
+    <state width="1492" height="199" key="GridCell.Tab.1.right" timestamp="1599900082585">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1322" height="153" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599898658027" />
+    <state width="1492" height="199" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1599311045796">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -264,24 +268,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="384" y="109" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599394991239" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599898101152">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599398842166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599898101152" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599398842166" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/netease0912/jyh/wangyi03.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo />
+        <PinnedItemInfo parentTag="tiger0823.Main1$ListNode" memberName="val" />
       </pinned-members>
     </pin-to-top-manager>
   </component>

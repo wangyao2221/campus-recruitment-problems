@@ -5,35 +5,32 @@ import java.util.Scanner;
 
 public class wangyi01 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String str = in.nextLine();
-        int n = str.length();
-        int[] arr = new int[1 << 6];
-        Arrays.fill(arr,-1);
-        int rz = 0, bits = 0;
-        arr[0] = 0;
-        for (int i = 0; i < n; i++) {
-            char tmp = str.charAt(i);
-            if(tmp == 'a'){
-                bits ^= (1 << 0);
-            }else if(tmp == 'b'){
-                bits ^= (1 << 1);
-            }else if(tmp == 'c'){
-                bits ^= (1 << 2);
-            }else if(tmp == 'x'){
-                bits ^= (1 << 3);
-            }else if(tmp == 'y'){
-                bits ^= (1 << 4);
-            }else if(tmp == 'z'){
-                bits ^= (1 << 5);
-            }
-            if(arr[bits] >= 0){
-                rz = Math.max(rz,i + 1 - arr[bits]);
-            }else {
-                arr[bits] = i + 1;
-            }
+        Scanner sc = new Scanner(System.in);
+        char[] chs = sc.nextLine().toCharArray();
+        int result = fun(chs);
+        System.out.println(result);
+    }
 
+    private static int fun(char[] chs) {
+        int[] arr = new int[1 << 6];
+        Arrays.fill(arr, -1);
+        int result = 0;
+        int bit = 0;
+        arr[0] = 0;
+
+        for (int i = 0; i < chs.length; i++) {
+            char tmp = chs[i];
+
+            if (tmp == 'a') bit ^= (1 << 0);
+            else if (tmp == 'b') bit ^= (1 << 1);
+            else if (tmp == 'c') bit ^= (1 << 2);
+            else if (tmp == 'x') bit ^= (1 << 3);
+            else if (tmp == 'y') bit ^= (1 << 4);
+            else if (tmp == 'z') bit ^= (1 << 5);
+
+            if (arr[bit] >= 0) result = result > i + 1 - arr[bit] ? result : i + 1 - arr[bit];
+            else arr[bit] = i + 1;
         }
-        System.out.println(rz);
+        return result;
     }
 }
