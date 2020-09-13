@@ -26,8 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="xiaomi0908">
-      <change afterPath="$PROJECT_DIR$/src/netease0912/jyh/wangyi04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Didi0913/jyh/didi01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Didi0913/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Didi0913/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,18 +79,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.wangyi04">
+  <component name="RunManager" selected="Application.didi01">
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tencent02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tencent0906.jyh.Tencent02" />
+    <configuration name="didi01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Didi0913.jyh.didi01" />
       <module name="campus-recruitment-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tencent0906.jyh.*" />
+          <option name="PATTERN" value="Didi0913.jyh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.didi01" />
         <item itemvalue="Application.wangyi04" />
         <item itemvalue="Application.wangyi03" />
         <item itemvalue="Application.wangyi02" />
         <item itemvalue="Application.xiecheng01" />
-        <item itemvalue="Application.Tencent02" />
       </list>
     </recent_temporary>
   </component>
@@ -228,29 +229,29 @@
     </state>
     <state x="254" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599400338296" />
     <state x="286" y="2" key="CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311043231" />
-    <state width="1322" height="153" key="GridCell.Tab.0.bottom" timestamp="1599907321138">
+    <state width="1322" height="122" key="GridCell.Tab.0.bottom" timestamp="1599997919792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599907321138" />
-    <state width="1322" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599901011919" />
+    <state width="1322" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599997919792" />
     <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1322" height="153" key="GridCell.Tab.0.center" timestamp="1599907321138">
+    <state width="1322" height="122" key="GridCell.Tab.0.center" timestamp="1599997919792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="153" key="GridCell.Tab.0.center/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599907321138" />
-    <state width="1322" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599901011919" />
+    <state width="1322" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599997919792" />
     <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1322" height="153" key="GridCell.Tab.0.left" timestamp="1599907321138">
+    <state width="1322" height="122" key="GridCell.Tab.0.left" timestamp="1599997919792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="153" key="GridCell.Tab.0.left/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599907321138" />
-    <state width="1322" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599901011919" />
+    <state width="1322" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599997919792" />
     <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1322" height="153" key="GridCell.Tab.0.right" timestamp="1599907321138">
+    <state width="1322" height="122" key="GridCell.Tab.0.right" timestamp="1599997919792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="153" key="GridCell.Tab.0.right/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599907321138" />
-    <state width="1322" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599901011919" />
+    <state width="1322" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599997919792" />
     <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
     <state width="1322" height="153" key="GridCell.Tab.1.bottom" timestamp="1599907321139">
       <screen x="0" y="0" width="1366" height="728" />
@@ -272,6 +273,14 @@
     </state>
     <state width="1322" height="153" key="GridCell.Tab.1.right/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599907321139" />
     <state width="1322" height="153" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599898658027" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1599993764024">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1599993764024" />
+    <state x="318" y="124" key="MultipleFileMergeDialog" timestamp="1599993755693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="318" y="124" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1599993755693" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1599311045796">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
