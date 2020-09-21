@@ -1,4 +1,4 @@
-package netease0912.jyh;
+package history.netease0912.jyh;
 
 import java.util.HashMap;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package netease0912.wy;
+package history.netease0912.wy;
 
 import java.util.Scanner;
 

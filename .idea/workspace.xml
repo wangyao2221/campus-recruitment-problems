@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,16 +29,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="xiaomi0908">
-      <change afterPath="$PROJECT_DIR$/src/netease0912/wy/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/netease0912/wy/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/netease0912/wy/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history/baidu0914/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history/baidu0914/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history/netease0912/wy/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history/netease0912/wy/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history/vivo0912/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history/vivo0912/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history/vivo0912/Main22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history/vivo0912/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history/yitu0917/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/history/zhongjinsuo0914/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tiger0920/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tiger0920/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vm0921/wy/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_12_14_50_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_12_14_50__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_19_26_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_19_26__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_20_20_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_20_20__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_20_53_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_20_53__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_21_10_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_21_10__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/netease0912/jyh/wangyi01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/netease0912/jyh/wangyi01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netease0912/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/history/netease0912/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netease0912/jyh/wangyi01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/history/netease0912/jyh/wangyi01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netease0912/jyh/wangyi02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/history/netease0912/jyh/wangyi02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netease0912/jyh/wangyi03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/history/netease0912/jyh/wangyi03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netease0912/wy/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/history/netease0912/wy/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netease0912/wy/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/history/netease0912/wy/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netease0912/wy/Main3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +92,9 @@
         <option name="userSettingsFile" value="C:\Users\Jiyonghao\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1h5medl5dUMc7SncjAznVWNRUti" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -81,18 +121,57 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main2 (1)">
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="history.yitu0917.Main1" />
+      <module name="campus-recruitment-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="history.yitu0917.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="history.zhongjinsuo0914.Main1" />
+      <module name="campus-recruitment-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="history.zhongjinsuo0914.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tiger0920.Main2" />
+      <module name="campus-recruitment-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tiger0920.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netease0912.wy.Main2" />
+      <option name="MAIN_CLASS_NAME" value="history.baidu0914.Main2" />
       <module name="campus-recruitment-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netease0912.wy.*" />
+          <option name="PATTERN" value="history.baidu0914.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tencent02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tencent0906.jyh.Tencent02" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tiger0920.Main3" />
       <module name="campus-recruitment-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tencent0906.jyh.*" />
+          <option name="PATTERN" value="tiger0920.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,40 +192,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xiecheng01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xiecheng0908.ji.xiecheng01" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="campus-recruitment-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xiecheng0908.ji.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2 (1)" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.xiecheng01" />
-        <item itemvalue="Application.Tencent02" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -162,6 +236,17 @@
       <workItem from="1599470805150" duration="615000" />
       <workItem from="1599495326047" duration="1198000" />
       <workItem from="1599562767916" duration="3934000" />
+      <workItem from="1599961033965" duration="1652000" />
+      <workItem from="1600081066992" duration="6613000" />
+      <workItem from="1600097329962" duration="166000" />
+      <workItem from="1600253188848" duration="48000" />
+      <workItem from="1600256481048" duration="1912000" />
+      <workItem from="1600262990899" duration="852000" />
+      <workItem from="1600339614021" duration="3257000" />
+      <workItem from="1600428423300" duration="1638000" />
+      <workItem from="1600590642510" duration="3715000" />
+      <workItem from="1600652288003" duration="602000" />
+      <workItem from="1600688008726" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="xiaomi0908">
       <created>1599309690817</created>
@@ -207,6 +292,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="xiaomi0908" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1599912396271">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1599912396271" />
     <state x="391" y="177" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1599395257029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -216,46 +305,50 @@
     </state>
     <state x="254" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599400338296" />
     <state x="286" y="2" key="CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311043231" />
-    <state width="1492" height="199" key="GridCell.Tab.0.bottom" timestamp="1599900082586">
+    <state width="1492" height="374" key="GridCell.Tab.0.bottom" timestamp="1600609516720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599567515441" />
-    <state width="1492" height="199" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599900082586" />
+    <state width="1876" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1600258800623" />
+    <state width="1492" height="374" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600609516720" />
     <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1492" height="199" key="GridCell.Tab.0.center" timestamp="1599900082585">
+    <state width="1492" height="374" key="GridCell.Tab.0.center" timestamp="1600609516720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599567515440" />
-    <state width="1492" height="199" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
+    <state width="1876" height="265" key="GridCell.Tab.0.center/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1600258800623" />
+    <state width="1492" height="374" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1600609516720" />
     <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1492" height="199" key="GridCell.Tab.0.left" timestamp="1599900082585">
+    <state width="1492" height="374" key="GridCell.Tab.0.left" timestamp="1600609516720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599567515440" />
-    <state width="1492" height="199" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
+    <state width="1876" height="265" key="GridCell.Tab.0.left/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1600258800623" />
+    <state width="1492" height="374" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1600609516720" />
     <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1492" height="199" key="GridCell.Tab.0.right" timestamp="1599900082585">
+    <state width="1492" height="374" key="GridCell.Tab.0.right" timestamp="1600609516720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599567515441" />
-    <state width="1492" height="199" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
+    <state width="1876" height="265" key="GridCell.Tab.0.right/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1600258800623" />
+    <state width="1492" height="374" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1600609516720" />
     <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
-    <state width="1492" height="199" key="GridCell.Tab.1.bottom" timestamp="1599900082585">
+    <state width="1492" height="374" key="GridCell.Tab.1.bottom" timestamp="1600609516720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="199" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
-    <state width="1492" height="199" key="GridCell.Tab.1.center" timestamp="1599900082585">
+    <state width="1492" height="374" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600609516720" />
+    <state width="1492" height="374" key="GridCell.Tab.1.center" timestamp="1600609516720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="199" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
-    <state width="1492" height="199" key="GridCell.Tab.1.left" timestamp="1599900082585">
+    <state width="1492" height="374" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1600609516720" />
+    <state width="1492" height="374" key="GridCell.Tab.1.left" timestamp="1600609516720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="199" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
-    <state width="1492" height="199" key="GridCell.Tab.1.right" timestamp="1599900082585">
+    <state width="1492" height="374" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1600609516720" />
+    <state width="1492" height="374" key="GridCell.Tab.1.right" timestamp="1600609516720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="199" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1599900082585" />
+    <state width="1492" height="374" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1600609516720" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1599311045796">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -268,12 +361,32 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="384" y="109" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599394991239" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599398842166">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="389" y="56" width="756" height="777" key="search.everywhere.popup" timestamp="1600592976182">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599398842166" />
+    <state x="389" y="56" width="756" height="777" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1600592976182" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/history/netease0912/wy/Main4.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/history/zhongjinsuo0914/Main1.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tiger0920/Main2.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo />
