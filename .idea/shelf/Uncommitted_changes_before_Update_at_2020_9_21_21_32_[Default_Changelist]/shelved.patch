@@ -1,0 +1,474 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_13_18_42_[Default_Changelist]/shelved.patch
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_13_18_42_[Default_Changelist]/shelved.patch	(revision 268134cc4d9f59d555cda2b66841d7a3105e68a3)
++++ .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_13_18_42_[Default_Changelist]/shelved.patch	(revision 268134cc4d9f59d555cda2b66841d7a3105e68a3)
+@@ -1,327 +0,0 @@
+-Index: src/netease0912/jyh/wangyi02.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package netease0912.jyh;\r\n\r\nimport java.util.HashMap;\r\nimport java.util.Scanner;\r\nclass TreeNode{\r\n    TreeNode left;\r\n    TreeNode right;\r\n    int val;\r\n    public TreeNode(int val){\r\n        this.val = val;\r\n    }\r\n}\r\npublic class wangyi02 {\r\n    static int rz = 0;\r\n    public static void main(String[] args) {\r\n        Scanner in = new Scanner(System.in);\r\n        int m = in.nextInt();\r\n        int n = in.nextInt();\r\n        HashMap<Integer,TreeNode> map = new HashMap<>();\r\n        TreeNode head = new TreeNode(1);\r\n        map.put(1,head);\r\n        for (int i = 0; i < n; i++) {\r\n            int root = in.nextInt();\r\n            String sonLoc = in.next();\r\n            int son = in.nextInt();\r\n            TreeNode rootNode;\r\n            TreeNode sonNode;\r\n\r\n            if(!map.containsKey(root)){\r\n                rootNode = new TreeNode(root);\r\n                map.put(root,rootNode);\r\n            }\r\n            else rootNode = map.get(root);\r\n\r\n            if(!map.containsKey(son)){\r\n                sonNode = new TreeNode(son);\r\n                map.put(son,sonNode);\r\n            }\r\n            else sonNode = map.get(son);\r\n\r\n            if(sonLoc.equals(\"left\")){\r\n                rootNode.left = sonNode;\r\n            }\r\n            else {\r\n                rootNode.right = sonNode;\r\n            }\r\n        }\r\n        int rzz = find(head);\r\n        System.out.println(rz);\r\n\r\n    }\r\n\r\n    private static int find(TreeNode root) {\r\n        if(root == null)return 0;\r\n        int leftNum = find(root.left);\r\n        int rightNum = find(root.right);\r\n        if(leftNum == 1 && rightNum == 1){\r\n            rz++;\r\n        }\r\n        return leftNum > rightNum?leftNum + 1 : rightNum + 1;\r\n    }\r\n\r\n\r\n}\r\n
+-===================================================================
+---- src/netease0912/jyh/wangyi02.java	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-+++ src/history/netease0912/jyh/wangyi02.java	(date 1599993466956)
+-@@ -1,4 +1,4 @@
+--package netease0912.jyh;
+-+package history.netease0912.jyh;
+- 
+- import java.util.HashMap;
+- import java.util.Scanner;
+-Index: src/netease0912/jyh/wangyi03.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package netease0912.jyh;\r\n\r\nimport java.util.HashSet;\r\nimport java.util.Scanner;\r\n\r\npublic class wangyi03 {\r\n    static int maxNum = 0;\r\n    static HashSet<Integer> set = new HashSet<>();\r\n    public static void main(String[] args) {\r\n        Scanner in = new Scanner(System.in);\r\n        int n = in.nextInt();\r\n        int k = in.nextInt();\r\n        int[][] arr = new int[n][n];\r\n        for (int i = 0; i < n - 1; i++) {\r\n            int tmp = in.nextInt();\r\n            int x = i + 1;\r\n            int y = tmp;\r\n            if(arr[x][y] == 0)arr[x][y] = 1;\r\n            if(arr[y][x] == 0)arr[y][x] = 1;\r\n        }\r\n        set.contains(0);\r\n        int count = 1;\r\n        find(arr,0,n,k,count);\r\n        System.out.println(maxNum);\r\n    }\r\n\r\n    private static void find(int[][] arr, int loc,int n, int k, int count) {\r\n        if(k == 0){\r\n            maxNum = Math.max(maxNum,count);\r\n            return;\r\n        }\r\n        for (int i = 0; i < n; i++) {\r\n            if(arr[loc][i] == 1 && !set.contains(i)){\r\n                set.add(i);\r\n                find(arr,i,n,k-1,count + 1);\r\n                set.remove(i);\r\n            }\r\n        }\r\n        if(k >= 0)maxNum = Math.max(maxNum,count);\r\n        return;\r\n    }\r\n}\r\n
+-===================================================================
+---- src/netease0912/jyh/wangyi03.java	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-+++ src/history/netease0912/jyh/wangyi03.java	(date 1599993466993)
+-@@ -1,4 +1,4 @@
+--package netease0912.jyh;
+-+package history.netease0912.jyh;
+- 
+- import java.util.HashSet;
+- import java.util.Scanner;
+-Index: src/netease0912/jyh/wangyi01.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package netease0912.jyh;\r\n\r\nimport java.util.Arrays;\r\nimport java.util.Scanner;\r\n\r\npublic class wangyi01 {\r\n    public static void main(String[] args) {\r\n        Scanner in = new Scanner(System.in);\r\n        String str = in.nextLine();\r\n        int n = str.length();\r\n        int[] arr = new int[1 << 6];\r\n        Arrays.fill(arr,-1);\r\n        int rz = 0, bits = 0;\r\n        arr[0] = 0;\r\n        for (int i = 0; i < n; i++) {\r\n            char tmp = str.charAt(i);\r\n            if(tmp == 'a'){\r\n                bits ^= (1 << 0);\r\n            }else if(tmp == 'b'){\r\n                bits ^= (1 << 1);\r\n            }else if(tmp == 'c'){\r\n                bits ^= (1 << 2);\r\n            }else if(tmp == 'x'){\r\n                bits ^= (1 << 3);\r\n            }else if(tmp == 'y'){\r\n                bits ^= (1 << 4);\r\n            }else if(tmp == 'z'){\r\n                bits ^= (1 << 5);\r\n            }\r\n            if(arr[bits] >= 0){\r\n                rz = Math.max(rz,i + 1 - arr[bits]);\r\n            }else {\r\n                arr[bits] = i + 1;\r\n            }\r\n\r\n        }\r\n        System.out.println(rz);\r\n    }\r\n}\r\n
+-===================================================================
+---- src/netease0912/jyh/wangyi01.java	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-+++ src/history/netease0912/jyh/wangyi01.java	(date 1599993466946)
+-@@ -1,4 +1,4 @@
+--package netease0912.jyh;
+-+package history.netease0912.jyh;
+- 
+- import java.util.Arrays;
+- import java.util.Scanner;
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46_[Default_Changelist]/shelved.patch
+-===================================================================
+---- .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46_[Default_Changelist]/shelved.patch	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-+++ .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46_[Default_Changelist]/shelved.patch	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-@@ -1,25 +0,0 @@
+--Index: .idea/workspace.xml
+--IDEA additional info:
+--Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+--<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5a116ec0-6323-4153-b6fa-84ac0afdd82f\" name=\"Default Changelist\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"F:\\MavenRepo\\repository\" />\r\n        <option name=\"userSettingsFile\" value=\"C:\\Users\\Jiyonghao\\.m2\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1h5medl5dUMc7SncjAznVWNRUti\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"MavenSettings\" />\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5a116ec0-6323-4153-b6fa-84ac0afdd82f\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1599309423207</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1599309423207</updated>\r\n      <workItem from=\"1599309427270\" duration=\"358000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"xiaomi0908\">\r\n      <created>1599309690817</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599309690817</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"xiaomi0908\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"xiaomi0908\" />\r\n  </component>\r\n</project>
+--Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+--<+>UTF-8
+--===================================================================
+----- .idea/workspace.xml	(revision 047473aabfbcdfb5964fad57b7fc589ed74d6184)
+--+++ .idea/workspace.xml	(date 1599309870179)
+--@@ -69,4 +69,14 @@
+--     <MESSAGE value="xiaomi0908" />
+--     <option name="LAST_COMMIT_MESSAGE" value="xiaomi0908" />
+--   </component>
+--+  <component name="WindowStateProjectService">
+--+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1599309788391">
+--+      <screen x="0" y="0" width="1366" height="728" />
+--+    </state>
+--+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309788391" />
+--+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599309741308">
+--+      <screen x="0" y="0" width="1366" height="728" />
+--+    </state>
+--+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309741308" />
+--+  </component>
+-- </project>
+--\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46__Default_Changelist_.xml
+-===================================================================
+---- .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46__Default_Changelist_.xml	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-+++ .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46__Default_Changelist_.xml	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-@@ -1,4 +0,0 @@
+--<changelist name="Uncommitted_changes_before_Update_at_2020_9_5_20_46_[Default_Changelist]" date="1599309963924" recycled="true" deleted="true">
+--  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46_[Default_Changelist]/shelved.patch" />
+--  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2020/9/5 20:46 [Default Changelist]" />
+--</changelist>
+-\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10__Default_Changelist_.xml
+-===================================================================
+---- .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10__Default_Changelist_.xml	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-+++ .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10__Default_Changelist_.xml	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-@@ -1,4 +0,0 @@
+--<changelist name="Uncommitted_changes_before_Update_at_2020_9_5_21_10_[Default_Changelist]" date="1599311439639" recycled="true" deleted="true">
+--  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10_[Default_Changelist]/shelved.patch" />
+--  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2020/9/5 21:10 [Default Changelist]" />
+--</changelist>
+-\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10_[Default_Changelist]/shelved.patch
+-===================================================================
+---- .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10_[Default_Changelist]/shelved.patch	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-+++ .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10_[Default_Changelist]/shelved.patch	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-@@ -1,102 +0,0 @@
+--Index: src/xiaomi0908/jyh/Ten01.java
+--IDEA additional info:
+--Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+--<+>package xiaomi0908.jyh;\r\n\r\npublic class Ten01 {\r\n}\r\n
+--Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+--<+>GBK
+--===================================================================
+----- src/xiaomi0908/jyh/Ten01.java	(revision 84d531348caa7d1ecbded6c97df4eb3cac0891b4)
+--+++ src/xiaomi0908/jyh/Ten01.java	(date 1599311427011)
+--@@ -1,4 +1,13 @@
+-- package xiaomi0908.jyh;
+-- 
+--+import java.util.LinkedList;
+--+import java.util.Queue;
+--+
+-- public class Ten01 {
+--+    public static void main(String[] args) {
+--+        Queue<String> queue = new LinkedList<>();
+--+
+--+    }
+--+
+--+
+-- }
+--Index: .idea/workspace.xml
+--IDEA additional info:
+--Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+--<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5a116ec0-6323-4153-b6fa-84ac0afdd82f\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/xiaomi0908/Test.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/xiaomi0908/Test.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"F:\\MavenRepo\\repository\" />\r\n        <option name=\"userSettingsFile\" value=\"C:\\Users\\Jiyonghao\\.m2\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1h5medl5dUMc7SncjAznVWNRUti\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"MavenSettings\" />\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5a116ec0-6323-4153-b6fa-84ac0afdd82f\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1599309423207</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1599309423207</updated>\r\n      <workItem from=\"1599309427270\" duration=\"585000\" />\r\n      <workItem from=\"1599310016781\" duration=\"188000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"xiaomi0908\">\r\n      <created>1599309690817</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599309690817</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"xiaomi0908\">\r\n      <created>1599309788949</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599309788949</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"xiaomi0908\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"xiaomi0908\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"219\" y=\"0\" key=\"CommitChangelistDialog2\" timestamp=\"1599309788391\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"219\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599309788391\" />\r\n    <state x=\"275\" y=\"96\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1599309741308\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"275\" y=\"96\" key=\"Vcs.Push.Dialog.v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599309741308\" />\r\n    <state x=\"477\" y=\"276\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1599309958968\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"477\" y=\"276\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599309958968\" />\r\n    <state x=\"346\" y=\"49\" width=\"672\" height=\"678\" key=\"search.everywhere.popup\" timestamp=\"1599310159997\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"346\" y=\"49\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599310159997\" />\r\n  </component>\r\n</project>
+--Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+--<+>UTF-8
+--===================================================================
+----- .idea/workspace.xml	(revision 84d531348caa7d1ecbded6c97df4eb3cac0891b4)
+--+++ .idea/workspace.xml	(date 1599311427030)
+--@@ -3,7 +3,7 @@
+--   <component name="ChangeListManager">
+--     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="">
+--       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/xiaomi0908/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xiaomi0908/Test.java" afterDir="false" />
+--+      <change beforePath="$PROJECT_DIR$/src/xiaomi0908/jyh/Ten01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xiaomi0908/jyh/Ten01.java" afterDir="false" />
+--     </list>
+--     <option name="SHOW_DIALOG" value="false" />
+--     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+--@@ -30,6 +30,10 @@
+--     </option>
+--   </component>
+--   <component name="ProjectId" id="1h5medl5dUMc7SncjAznVWNRUti" />
+--+  <component name="ProjectLevelVcsManager">
+--+    <OptionsSetting value="false" id="Update" />
+--+    <ConfirmationsSetting value="2" id="Add" />
+--+  </component>
+--   <component name="ProjectViewState">
+--     <option name="hideEmptyMiddlePackages" value="true" />
+--     <option name="showLibraryContents" value="true" />
+--@@ -56,7 +60,7 @@
+--       <option name="presentableId" value="Default" />
+--       <updated>1599309423207</updated>
+--       <workItem from="1599309427270" duration="585000" />
+---      <workItem from="1599310016781" duration="188000" />
+--+      <workItem from="1599310016781" duration="1410000" />
+--     </task>
+--     <task id="LOCAL-00001" summary="xiaomi0908">
+--       <created>1599309690817</created>
+--@@ -72,7 +76,14 @@
+--       <option name="project" value="LOCAL" />
+--       <updated>1599309788949</updated>
+--     </task>
+---    <option name="localTasksCounter" value="3" />
+--+    <task id="LOCAL-00003" summary="xiaomi0908">
+--+      <created>1599310281839</created>
+--+      <option name="number" value="00003" />
+--+      <option name="presentableId" value="LOCAL-00003" />
+--+      <option name="project" value="LOCAL" />
+--+      <updated>1599310281839</updated>
+--+    </task>
+--+    <option name="localTasksCounter" value="4" />
+--     <servers />
+--   </component>
+--   <component name="TypeScriptGeneratedFilesManager">
+--@@ -83,18 +94,18 @@
+--     <option name="LAST_COMMIT_MESSAGE" value="xiaomi0908" />
+--   </component>
+--   <component name="WindowStateProjectService">
+---    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1599309788391">
+--+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1599310281272">
+--       <screen x="0" y="0" width="1366" height="728" />
+--     </state>
+---    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309788391" />
+---    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599309741308">
+--+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599310281272" />
+--+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1599310298435">
+--       <screen x="0" y="0" width="1366" height="728" />
+--     </state>
+---    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309741308" />
+---    <state x="477" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599309958968">
+--+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599310298435" />
+--+    <state x="477" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599311426971">
+--       <screen x="0" y="0" width="1366" height="728" />
+--     </state>
+---    <state x="477" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599309958968" />
+--+    <state x="477" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599311426971" />
+--     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599310159997">
+--       <screen x="0" y="0" width="1366" height="728" />
+--     </state>
+-Index: src/Didi0913/Main.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>GBK
+-===================================================================
+---- src/Didi0913/Main.java	(date 1599993445453)
+-+++ src/Didi0913/Main.java	(date 1599993445453)
+-@@ -0,0 +1,4 @@
+-+package Didi0913;
+-+
+-+public class Main {
+-+}
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"BRANCH:master\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5a116ec0-6323-4153-b6fa-84ac0afdd82f\" name=\"Default Changelist\" comment=\"xiaomi0908\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/netease0912/jyh/wangyi04.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"package-info\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"F:\\MavenRepo\\repository\" />\r\n        <option name=\"userSettingsFile\" value=\"C:\\Users\\Jiyonghao\\.m2\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1h5medl5dUMc7SncjAznVWNRUti\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <OptionsSetting value=\"false\" id=\"Update\" />\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"MavenSettings\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.wangyi04\">\r\n    <configuration default=\"true\" type=\"GradleAppRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" PASS_PARENT_ENVS_2=\"true\">\r\n      <method v=\"2\">\r\n        <option name=\"com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Tencent02\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tencent0906.jyh.Tencent02\" />\r\n      <module name=\"campus-recruitment-problems\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tencent0906.jyh.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"wangyi02\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"history.netease0912.jyh.wangyi02\" />\r\n      <module name=\"campus-recruitment-problems\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"history.netease0912.jyh.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"wangyi03\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"history.netease0912.jyh.wangyi03\" />\r\n      <module name=\"campus-recruitment-problems\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"history.netease0912.jyh.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"wangyi04\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"history.netease0912.jyh.wangyi04\" />\r\n      <module name=\"campus-recruitment-problems\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"history.netease0912.jyh.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"xiecheng01\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"xiecheng0908.ji.xiecheng01\" />\r\n      <module name=\"campus-recruitment-problems\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"xiecheng0908.ji.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.wangyi04\" />\r\n        <item itemvalue=\"Application.wangyi03\" />\r\n        <item itemvalue=\"Application.wangyi02\" />\r\n        <item itemvalue=\"Application.xiecheng01\" />\r\n        <item itemvalue=\"Application.Tencent02\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5a116ec0-6323-4153-b6fa-84ac0afdd82f\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1599309423207</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1599309423207</updated>\r\n      <workItem from=\"1599309427270\" duration=\"358000\" />\r\n      <workItem from=\"1599391624655\" duration=\"541000\" />\r\n      <workItem from=\"1599470805150\" duration=\"615000\" />\r\n      <workItem from=\"1599495326047\" duration=\"1198000\" />\r\n      <workItem from=\"1599562767916\" duration=\"3934000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"xiaomi0908\">\r\n      <created>1599309690817</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599309690817</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"xiaomi0908\">\r\n      <created>1599310900636</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599310900636</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"xiaomi0908\">\r\n      <created>1599311044635</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599311044635</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"xiaomi0908\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"xiaomi0908\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"391\" y=\"177\" key=\"#com.intellij.refactoring.move.moveMembers.MoveMembersDialog\" timestamp=\"1599395257029\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"391\" y=\"177\" key=\"#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1599395257029\" />\r\n    <state x=\"254\" y=\"0\" key=\"CommitChangelistDialog2\" timestamp=\"1599400338296\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"254\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1366.728@0.0.1366.728\" timestamp=\"1599400338296\" />\r\n    <state x=\"286\" y=\"2\" key=\"CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834\" timestamp=\"1599311043231\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1599907321138\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.bottom/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321138\" />\r\n    <state width=\"1322\" height=\"122\" key=\"GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728\" timestamp=\"1599901011919\" />\r\n    <state width=\"1322\" height=\"215\" key=\"GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1599403160525\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.center\" timestamp=\"1599907321138\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.center/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321138\" />\r\n    <state width=\"1322\" height=\"122\" key=\"GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728\" timestamp=\"1599901011919\" />\r\n    <state width=\"1322\" height=\"215\" key=\"GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1599403160525\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.left\" timestamp=\"1599907321138\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.left/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321138\" />\r\n    <state width=\"1322\" height=\"122\" key=\"GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728\" timestamp=\"1599901011919\" />\r\n    <state width=\"1322\" height=\"215\" key=\"GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1599403160525\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.right\" timestamp=\"1599907321138\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.right/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321138\" />\r\n    <state width=\"1322\" height=\"122\" key=\"GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728\" timestamp=\"1599901011919\" />\r\n    <state width=\"1322\" height=\"215\" key=\"GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1599403160525\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1599907321139\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.bottom/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321139\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728\" timestamp=\"1599898658027\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.center\" timestamp=\"1599907321139\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.center/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321139\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728\" timestamp=\"1599898658027\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.left\" timestamp=\"1599907321139\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.left/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321139\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728\" timestamp=\"1599898658027\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.right\" timestamp=\"1599907321139\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.right/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321139\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728\" timestamp=\"1599898658027\" />\r\n    <state x=\"361\" y=\"150\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1599311045796\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"361\" y=\"150\" key=\"Vcs.Push.Dialog.v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834\" timestamp=\"1599311045796\" />\r\n    <state x=\"573\" y=\"330\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1599310873245\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"573\" y=\"330\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834\" timestamp=\"1599310873245\" />\r\n    <state x=\"384\" y=\"109\" key=\"refactoring.ChangeSignatureDialog\" timestamp=\"1599394991239\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"384\" y=\"109\" key=\"refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1599394991239\" />\r\n    <state x=\"346\" y=\"49\" width=\"672\" height=\"678\" key=\"search.everywhere.popup\" timestamp=\"1599898101152\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"346\" y=\"49\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/0.0.1366.728@0.0.1366.728\" timestamp=\"1599898101152\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <pin-to-top-manager>\r\n      <pinned-members>\r\n        <PinnedItemInfo />\r\n      </pinned-members>\r\n    </pin-to-top-manager>\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/find_job$Main2__2_.ic\" NAME=\"Main2 (2) Coverage Results\" MODIFIED=\"1598355643348\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>shenxinfu0825.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- .idea/workspace.xml	(revision 8fa5a43d9c6d686314bf9b60454f27dd14aca8d1)
+-+++ .idea/workspace.xml	(date 1599993742472)
+-@@ -26,8 +26,17 @@
+-   </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="xiaomi0908">
+--      <change afterPath="$PROJECT_DIR$/src/netease0912/jyh/wangyi04.java" afterDir="false" />
+-+      <change afterPath="$PROJECT_DIR$/src/Didi0913/Main.java" afterDir="false" />
+-+      <change afterPath="$PROJECT_DIR$/src/history/netease0912/jyh/wangyi04.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46_[Default_Changelist]/shelved.patch" beforeDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_20_46__Default_Changelist_.xml" beforeDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10_[Default_Changelist]/shelved.patch" beforeDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_5_21_10__Default_Changelist_.xml" beforeDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/netease0912/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/history/netease0912/Main1.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/netease0912/jyh/wangyi01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/history/netease0912/jyh/wangyi01.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/netease0912/jyh/wangyi02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/history/netease0912/jyh/wangyi02.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/src/netease0912/jyh/wangyi03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/history/netease0912/jyh/wangyi03.java" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -174,6 +183,7 @@
+-       <workItem from="1599470805150" duration="615000" />
+-       <workItem from="1599495326047" duration="1198000" />
+-       <workItem from="1599562767916" duration="3934000" />
+-+      <workItem from="1599993294084" duration="436000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="xiaomi0908">
+-       <created>1599309690817</created>
+-Index: src/history/netease0912/jyh/wangyi04.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>GBK
+-===================================================================
+---- src/history/netease0912/jyh/wangyi04.java	(date 1599993467002)
+-+++ src/history/netease0912/jyh/wangyi04.java	(date 1599993467002)
+-@@ -0,0 +1,62 @@
+-+package history.netease0912.jyh;
+-+
+-+import java.util.*;
+-+
+-+public class wangyi04 {
+-+    static HashSet<Integer> matchedGirl = new HashSet<>();
+-+    static int maxNum = 0;
+-+    static int maxboy = 0;
+-+    static int maxGirl = 0;
+-+    public static void main(String[] args) {
+-+        Scanner in = new Scanner(System.in);
+-+        String str1 = in.nextLine();
+-+        String str2 = in.nextLine();
+-+        String[] arr1 = str1.split(" ");
+-+        String[] arr2 = str2.split(" ");
+-+        int[] boys = new int[arr1.length];
+-+        int[] girls = new int[arr2.length];
+-+        HashMap<Integer,ArrayList<Integer>> boyList = new HashMap<>();
+-+        for (int i = 0; i < arr1.length; i++) {
+-+            boys[i] = Integer.parseInt(arr1[i]);
+-+            boyList.put(boys[i],new ArrayList<Integer>());
+-+        }
+-+
+-+        for (int i = 0; i < arr1.length; i++) {
+-+            girls[i] = Integer.parseInt(arr2[i]);
+-+        }
+-+        maxboy = arr1.length;
+-+        maxGirl = arr2.length;
+-+        int n = in.nextInt();
+-+        int[][] arr = new int[n][2];
+-+        for (int i = 0; i < n; i++) {
+-+            int boy = in.nextInt();
+-+            int girl = in.nextInt();
+-+            boyList.get(boy).add(girl);
+-+        }
+-+        
+-+        find(boyList,0,boys);
+-+        System.out.println(maxNum);
+-+//        System.out.println(Math.min(maxGirl,maxboy));
+-+    }
+-+
+-+    private static void find(HashMap<Integer, ArrayList<Integer>> boyList, int i,int[] boys) {
+-+        if(i == maxboy){
+-+//            int curSize = matchedGirl.size();
+-+            maxNum = Math.max(matchedGirl.size(),maxNum);
+-+            return;
+-+        }
+-+
+-+        List<Integer> tmp = boyList.get(boys[i]);
+-+        for (int j = 0; j < tmp.size(); j++) {
+-+            int girl = tmp.get(j);
+-+            if(!matchedGirl.contains(girl)) {
+-+                matchedGirl.add(girl);
+-+                find(boyList, i + 1,boys);
+-+                matchedGirl.remove(girl);
+-+            }
+-+        }
+-+    }
+-+    
+-+
+-+
+-+}
+-Index: src/netease0912/Main1.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package netease0912;\r\n\r\n/**\r\n * @author wangyao2221\r\n * @date 2020/9/12 13:23\r\n */\r\npublic class Main1 {\r\n}\r\n
+-===================================================================
+---- src/netease0912/Main1.java	(revision 5234ff61349253f04d0bf4adbecbd2f90c6ef49f)
+-+++ src/history/netease0912/Main1.java	(date 1599993467106)
+-@@ -1,4 +1,4 @@
+--package netease0912;
+-+package history.netease0912;
+- 
+- /**
+-  * @author wangyao2221
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_13_18_42__Default_Changelist_.xml
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_13_18_42__Default_Changelist_.xml	(revision 268134cc4d9f59d555cda2b66841d7a3105e68a3)
++++ .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_13_18_42__Default_Changelist_.xml	(revision 268134cc4d9f59d555cda2b66841d7a3105e68a3)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_2020_9_13_18_42_[Default_Changelist]" date="1599993765654" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_13_18_42_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2020/9/13 18:42 [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"BRANCH:master\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5a116ec0-6323-4153-b6fa-84ac0afdd82f\" name=\"Default Changelist\" comment=\"xiaomi0908\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/vm0921/jyh/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_13_18_42_[Default_Changelist]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_13_18_42__Default_Changelist_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_20_53__Default_Changelist_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_20_53__Default_Changelist_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"package-info\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"F:\\MavenRepo\\repository\" />\r\n        <option name=\"userSettingsFile\" value=\"C:\\Users\\Jiyonghao\\.m2\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1h5medl5dUMc7SncjAznVWNRUti\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <OptionsSetting value=\"false\" id=\"Update\" />\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"MavenSettings\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Main\">\r\n    <configuration default=\"true\" type=\"GradleAppRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" PASS_PARENT_ENVS_2=\"true\">\r\n      <method v=\"2\">\r\n        <option name=\"com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"vm0921.jyh.Main\" />\r\n      <module name=\"campus-recruitment-problems\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"vm0921.jyh.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"didi01\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Didi0913.jyh.didi01\" />\r\n      <module name=\"campus-recruitment-problems\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Didi0913.jyh.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"wangyi02\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"history.netease0912.jyh.wangyi02\" />\r\n      <module name=\"campus-recruitment-problems\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"history.netease0912.jyh.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"wangyi03\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"history.netease0912.jyh.wangyi03\" />\r\n      <module name=\"campus-recruitment-problems\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"history.netease0912.jyh.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"wangyi04\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"history.netease0912.jyh.wangyi04\" />\r\n      <module name=\"campus-recruitment-problems\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"history.netease0912.jyh.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.didi01\" />\r\n        <item itemvalue=\"Application.wangyi04\" />\r\n        <item itemvalue=\"Application.wangyi03\" />\r\n        <item itemvalue=\"Application.wangyi02\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5a116ec0-6323-4153-b6fa-84ac0afdd82f\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1599309423207</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1599309423207</updated>\r\n      <workItem from=\"1599309427270\" duration=\"358000\" />\r\n      <workItem from=\"1599391624655\" duration=\"541000\" />\r\n      <workItem from=\"1599470805150\" duration=\"615000\" />\r\n      <workItem from=\"1599495326047\" duration=\"1198000\" />\r\n      <workItem from=\"1599562767916\" duration=\"3934000\" />\r\n      <workItem from=\"1600693009363\" duration=\"1815000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"xiaomi0908\">\r\n      <created>1599309690817</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599309690817</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"xiaomi0908\">\r\n      <created>1599310900636</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599310900636</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"xiaomi0908\">\r\n      <created>1599311044635</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1599311044635</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"xiaomi0908\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"xiaomi0908\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"391\" y=\"177\" key=\"#com.intellij.refactoring.move.moveMembers.MoveMembersDialog\" timestamp=\"1599395257029\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"391\" y=\"177\" key=\"#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1599395257029\" />\r\n    <state x=\"254\" y=\"0\" key=\"CommitChangelistDialog2\" timestamp=\"1599400338296\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"254\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1366.728@0.0.1366.728\" timestamp=\"1599400338296\" />\r\n    <state x=\"286\" y=\"2\" key=\"CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834\" timestamp=\"1599311043231\" />\r\n    <state width=\"1322\" height=\"283\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1600694840063\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.bottom/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321138\" />\r\n    <state width=\"1322\" height=\"122\" key=\"GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728\" timestamp=\"1599997919792\" />\r\n    <state width=\"1322\" height=\"283\" key=\"GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768\" timestamp=\"1600694840063\" />\r\n    <state width=\"1322\" height=\"215\" key=\"GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1599403160525\" />\r\n    <state width=\"1322\" height=\"283\" key=\"GridCell.Tab.0.center\" timestamp=\"1600694840063\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.center/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321138\" />\r\n    <state width=\"1322\" height=\"122\" key=\"GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728\" timestamp=\"1599997919792\" />\r\n    <state width=\"1322\" height=\"283\" key=\"GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768\" timestamp=\"1600694840063\" />\r\n    <state width=\"1322\" height=\"215\" key=\"GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1599403160525\" />\r\n    <state width=\"1322\" height=\"283\" key=\"GridCell.Tab.0.left\" timestamp=\"1600694840062\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.left/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321138\" />\r\n    <state width=\"1322\" height=\"122\" key=\"GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728\" timestamp=\"1599997919792\" />\r\n    <state width=\"1322\" height=\"283\" key=\"GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768\" timestamp=\"1600694840062\" />\r\n    <state width=\"1322\" height=\"215\" key=\"GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1599403160525\" />\r\n    <state width=\"1322\" height=\"283\" key=\"GridCell.Tab.0.right\" timestamp=\"1600694840063\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.0.right/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321138\" />\r\n    <state width=\"1322\" height=\"122\" key=\"GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728\" timestamp=\"1599997919792\" />\r\n    <state width=\"1322\" height=\"283\" key=\"GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768\" timestamp=\"1600694840063\" />\r\n    <state width=\"1322\" height=\"215\" key=\"GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1599403160525\" />\r\n    <state width=\"1322\" height=\"164\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1600694803118\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.bottom/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321139\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728\" timestamp=\"1599898658027\" />\r\n    <state width=\"1322\" height=\"164\" key=\"GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768\" timestamp=\"1600694803118\" />\r\n    <state width=\"1322\" height=\"164\" key=\"GridCell.Tab.1.center\" timestamp=\"1600694803117\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.center/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321139\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728\" timestamp=\"1599898658027\" />\r\n    <state width=\"1322\" height=\"164\" key=\"GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768\" timestamp=\"1600694803117\" />\r\n    <state width=\"1322\" height=\"164\" key=\"GridCell.Tab.1.left\" timestamp=\"1600694803117\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.left/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321139\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728\" timestamp=\"1599898658027\" />\r\n    <state width=\"1322\" height=\"164\" key=\"GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768\" timestamp=\"1600694803117\" />\r\n    <state width=\"1322\" height=\"164\" key=\"GridCell.Tab.1.right\" timestamp=\"1600694803118\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.right/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728\" timestamp=\"1599907321139\" />\r\n    <state width=\"1322\" height=\"153\" key=\"GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728\" timestamp=\"1599898658027\" />\r\n    <state width=\"1322\" height=\"164\" key=\"GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768\" timestamp=\"1600694803118\" />\r\n    <state x=\"263\" y=\"118\" key=\"IDE.errors.dialog\" timestamp=\"1600693100459\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"768\" />\r\n    </state>\r\n    <state x=\"263\" y=\"118\" key=\"IDE.errors.dialog/0.0.1366.768@0.0.1366.768\" timestamp=\"1600693100459\" />\r\n    <state x=\"129\" y=\"55\" key=\"MergeDialog\" timestamp=\"1599993764024\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"129\" y=\"55\" key=\"MergeDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1599993764024\" />\r\n    <state x=\"318\" y=\"124\" key=\"MultipleFileMergeDialog\" timestamp=\"1599993755693\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"318\" y=\"124\" key=\"MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1599993755693\" />\r\n    <state x=\"361\" y=\"150\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1599311045796\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"361\" y=\"150\" key=\"Vcs.Push.Dialog.v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834\" timestamp=\"1599311045796\" />\r\n    <state x=\"573\" y=\"330\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1599310873245\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"834\" />\r\n    </state>\r\n    <state x=\"573\" y=\"330\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834\" timestamp=\"1599310873245\" />\r\n    <state x=\"384\" y=\"109\" key=\"refactoring.ChangeSignatureDialog\" timestamp=\"1599394991239\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"384\" y=\"109\" key=\"refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1599394991239\" />\r\n    <state x=\"346\" y=\"49\" width=\"672\" height=\"678\" key=\"search.everywhere.popup\" timestamp=\"1599898101152\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"346\" y=\"49\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/0.0.1366.728@0.0.1366.728\" timestamp=\"1599898101152\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/vm0921/jyh/Main.java</url>\r\n          <line>21</line>\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n    <pin-to-top-manager>\r\n      <pinned-members>\r\n        <PinnedItemInfo />\r\n      </pinned-members>\r\n    </pin-to-top-manager>\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/find_job$Main2__2_.ic\" NAME=\"Main2 (2) Coverage Results\" MODIFIED=\"1598355643348\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>shenxinfu0825.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 5a3a9c3bc89e963dc2cd969e6a0a76e1eb70ead1)
++++ .idea/workspace.xml	(date 1600695159873)
+@@ -177,7 +177,7 @@
+       <workItem from="1599470805150" duration="615000" />
+       <workItem from="1599495326047" duration="1198000" />
+       <workItem from="1599562767916" duration="3934000" />
+-      <workItem from="1600693009363" duration="1815000" />
++      <workItem from="1600693009363" duration="2130000" />
+     </task>
+     <task id="LOCAL-00001" summary="xiaomi0908">
+       <created>1599309690817</created>
+@@ -232,33 +232,33 @@
+     </state>
+     <state x="254" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599400338296" />
+     <state x="286" y="2" key="CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311043231" />
+-    <state width="1322" height="283" key="GridCell.Tab.0.bottom" timestamp="1600694840063">
++    <state width="1322" height="141" key="GridCell.Tab.0.bottom" timestamp="1600695099037">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+     <state width="1322" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599907321138" />
+     <state width="1322" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599997919792" />
+-    <state width="1322" height="283" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600694840063" />
++    <state width="1322" height="141" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600695099037" />
+     <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
+-    <state width="1322" height="283" key="GridCell.Tab.0.center" timestamp="1600694840063">
++    <state width="1322" height="141" key="GridCell.Tab.0.center" timestamp="1600695099037">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+     <state width="1322" height="153" key="GridCell.Tab.0.center/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599907321138" />
+     <state width="1322" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599997919792" />
+-    <state width="1322" height="283" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600694840063" />
++    <state width="1322" height="141" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600695099037" />
+     <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
+-    <state width="1322" height="283" key="GridCell.Tab.0.left" timestamp="1600694840062">
++    <state width="1322" height="141" key="GridCell.Tab.0.left" timestamp="1600695099037">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+     <state width="1322" height="153" key="GridCell.Tab.0.left/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599907321138" />
+     <state width="1322" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599997919792" />
+-    <state width="1322" height="283" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600694840062" />
++    <state width="1322" height="141" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600695099037" />
+     <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
+-    <state width="1322" height="283" key="GridCell.Tab.0.right" timestamp="1600694840063">
++    <state width="1322" height="141" key="GridCell.Tab.0.right" timestamp="1600695099037">
+       <screen x="0" y="0" width="1366" height="768" />
+     </state>
+     <state width="1322" height="153" key="GridCell.Tab.0.right/0.0.1366.728/-319.-1080.1920.1040@0.0.1366.728" timestamp="1599907321138" />
+     <state width="1322" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599997919792" />
+-    <state width="1322" height="283" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600694840063" />
++    <state width="1322" height="141" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600695099037" />
+     <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
+     <state width="1322" height="164" key="GridCell.Tab.1.bottom" timestamp="1600694803118">
+       <screen x="0" y="0" width="1366" height="768" />
+Index: src/vm0921/jyh/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- src/vm0921/jyh/Main.java	(date 1600695035372)
++++ src/vm0921/jyh/Main.java	(date 1600695035372)
+@@ -0,0 +1,63 @@
++package vm0921.jyh;
++
++import javafx.beans.binding.DoubleExpression;
++
++import java.text.DecimalFormat;
++import java.util.Scanner;
++
++public class Main {
++    public static void main(String[] args) {
++        Scanner in = new Scanner(System.in);
++        double n = in.nextDouble();
++        int m = in.nextInt();
++        double workLen = in.nextDouble();
++        double x = 0;
++        double y = 0;
++        DecimalFormat df = new DecimalFormat("0.00");
++        double tmp = 0;
++        while (m-- > 0){
++            double r = workLen;
++//            int times = (int) ((int)r / (4 * n));
++//            r = r - times*n*4;
++            while (r > 0) {
++                if (x < n && y == 0) {
++                    tmp = x;
++                    x += r;
++                    if (x > n) {
++                        x = n;
++                        r -= n - tmp;
++                    }
++                    else r = 0;
++                }
++                if (x == n && y < n) {
++                    tmp = y;
++                    y += r;
++                    if (y > n) {
++                        y = n;
++                        r -= n - tmp;
++                    }
++                    else r = 0;
++                }
++                if (x > 0 && y == n) {
++                    tmp = x;
++                    x -= r;
++                    if (x < 0) {
++                        x = 0;
++                        r -= tmp - 0;
++                    }
++                    else r = 0;
++                }
++                if (x == 0 && y > 0) {
++                    tmp = y;
++                    y -= r;
++                    if (y < 0) {
++                        y = 0;
++                        r -= tmp - 0;
++                    }
++                    else r = 0;
++                }
++            }
++            System.out.println(df.format(x)+" "+df.format(y));
++        }
++    }
++}
+diff --git .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_20_53__Default_Changelist_.xml .idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_20_53__Default_Changelist_.xml
