@@ -9,7 +9,7 @@ import java.util.Stack;
  * @author wangyao2221
  * @date 2020/9/21 20:31
  */
-public class Main1 {
+public class Main2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
