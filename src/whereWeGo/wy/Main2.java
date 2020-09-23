@@ -35,7 +35,7 @@ public class Main2 {
                 if (arr1[i] == arr2[j]) {
                     dp[i + 1][j + 1] = dp[i][j] + 1;
                 } else {
-                    dp[i + 1][j + 1] = Math.max(Math.max(dp[i + 1][j], dp[i][j + 1]), dp[i][j]);
+                    dp[i + 1][j + 1] = Math.max(dp[i + 1][j], dp[i][j + 1]);
                 }
             }
         }
