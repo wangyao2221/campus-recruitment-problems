@@ -1,6 +1,4 @@
-package whereWeGo.wy;
-
-import vm0921.jyh.Main;
+package history.whereWeGo.wy;
 
 import java.util.Scanner;
 

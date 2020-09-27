@@ -1,4 +1,4 @@
-package tiger0920;
+package history.tiger0920;
 
 import java.util.Arrays;
 import java.util.Comparator;

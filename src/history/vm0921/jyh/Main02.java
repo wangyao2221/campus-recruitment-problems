@@ -1,6 +1,5 @@
-package vm0921.jyh;
+package history.vm0921.jyh;
 
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Stack;
 

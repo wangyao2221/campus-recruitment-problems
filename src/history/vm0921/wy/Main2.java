@@ -1,7 +1,5 @@
-package vm0921.wy;
+package history.vm0921.wy;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package whereWeGo.wy;
+package history.whereWeGo.wy;
 
 import java.util.Scanner;
 

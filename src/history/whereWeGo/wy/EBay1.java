@@ -1,4 +1,4 @@
-package whereWeGo.wy;
+package history.whereWeGo.wy;
 
 import java.util.Scanner;
 
@@ -11,14 +11,10 @@ public class EBay1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        int[] dp = new int[n + 1];
+        long[] dp = new long[n + 1];
 
         dp[0] = 0;
         dp[1] = 1;
-
-        for (int i = 2; i <= n; i++) {
-            dp[i] = 0;
-        }
 
         for (int i = 2; i <= n; i++) {
             int c = 1;

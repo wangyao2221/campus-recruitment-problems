@@ -1,4 +1,4 @@
-package Didi0913.jyh;
+package history.Didi0913.jyh;
 
 import java.util.Scanner;
 
