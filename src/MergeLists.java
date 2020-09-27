@@ -26,9 +26,13 @@ public class MergeLists {
         for (int i = 0; i < k; i++) {
             String inputData = data[i];
             String[] tmp = inputData.split(" ");
+//            System.out.println(tmp.length);
             for (int j = 0; j < tmp.length; j++) {
 //                System.out.print(tmp[j] + " ");
                 if(j == 0){
+                    if(tmp[j].equals("")){
+                        break;
+                    }
                     lists[i] = new ListNode(Integer.valueOf(tmp[j]));
                     p = lists[i];
                     continue;
