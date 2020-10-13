@@ -1,0 +1,12 @@
+Index: src/xiecheng/ji/xiecheng01.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- src/xiecheng/ji/xiecheng01.java	(date 1602556720190)
++++ src/xiecheng/ji/xiecheng01.java	(date 1602556720190)
+@@ -0,0 +1,4 @@
++package xiecheng.ji;
++
++public class xiecheng01 {
++}
