@@ -1,4 +1,4 @@
-package Netease0927;
+package history.Netease0927;
 
 import java.util.Scanner;
 
