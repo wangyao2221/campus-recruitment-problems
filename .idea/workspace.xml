@@ -29,25 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a116ec0-6323-4153-b6fa-84ac0afdd82f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_21_21_32_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_21_21_32__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_21_21_40_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_21_21_40__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_19_59_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_19_59__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_20_01_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_20_01__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_20_05_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_20_05__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_20_09_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_20_09__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_24_19_33_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_24_19_33__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_24_19_55_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_24_19_55__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_20_53__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_6_20_53__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xiecheng/ji/xie02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xiecheng/ji/xiecheng01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xiecheng/ji/xiecheng01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +93,7 @@
       <recent name="whereWeGo.wy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeLists">
+  <component name="RunManager" selected="Application.xie02">
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -129,33 +113,7 @@
       </method>
     </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="whereWeGo.wy.Main2" />
-      <module name="campus-recruitment-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="whereWeGo.wy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vm0921.wy.Main2" />
-      <module name="campus-recruitment-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vm0921.wy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main3XS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vm0921.wy.Main3XS" />
       <module name="campus-recruitment-problems" />
       <extension name="coverage">
         <pattern>
@@ -187,13 +145,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="xie02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xiecheng.ji.xie02" />
+      <module name="campus-recruitment-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xiecheng.ji.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xiecheng01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xiecheng.ji.xiecheng01" />
+      <module name="campus-recruitment-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xiecheng.ji.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.xie02" />
+        <item itemvalue="Application.xiecheng01" />
         <item itemvalue="Application.MergeLists" />
         <item itemvalue="Application.ebay01" />
         <item itemvalue="Application.EBay2" />
-        <item itemvalue="Application.Main3XS" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -314,62 +298,74 @@
     <state x="254" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599400338296" />
     <state x="286" y="2" key="CommitChangelistDialog2/0.0.1536.834/-5.-1080.1920.1050@0.0.1536.834" timestamp="1599311043231" />
     <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1600862956040" />
-    <state width="1322" height="236" key="GridCell.Tab.0.bottom" timestamp="1601206552407">
+    <state width="1322" height="164" key="GridCell.Tab.0.bottom" timestamp="1602559991450">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599567515441" />
     <state width="1322" height="236" key="GridCell.Tab.0.bottom/0.0.1366.768/-319.-1080.1920.1080@0.0.1366.768" timestamp="1601206552407" />
-    <state width="1322" height="141" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600948888556" />
+    <state width="1322" height="164" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602559991450" />
     <state width="1876" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1600258800623" />
     <state width="1492" height="169" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600863421951" />
     <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
     <state width="1876" height="141" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600950272302" />
-    <state width="1322" height="236" key="GridCell.Tab.0.center" timestamp="1601206552406">
+    <state width="1322" height="164" key="GridCell.Tab.0.center" timestamp="1602559991449">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599567515440" />
     <state width="1322" height="236" key="GridCell.Tab.0.center/0.0.1366.768/-319.-1080.1920.1080@0.0.1366.768" timestamp="1601206552406" />
-    <state width="1322" height="141" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600948888555" />
+    <state width="1322" height="164" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1602559991449" />
     <state width="1876" height="265" key="GridCell.Tab.0.center/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1600258800623" />
     <state width="1492" height="169" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1600863421951" />
     <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
     <state width="1876" height="141" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600950272302" />
-    <state width="1322" height="236" key="GridCell.Tab.0.left" timestamp="1601206552406">
+    <state width="1322" height="164" key="GridCell.Tab.0.left" timestamp="1602559991449">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599567515440" />
     <state width="1322" height="236" key="GridCell.Tab.0.left/0.0.1366.768/-319.-1080.1920.1080@0.0.1366.768" timestamp="1601206552406" />
-    <state width="1322" height="141" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600948888555" />
+    <state width="1322" height="164" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1602559991449" />
     <state width="1876" height="265" key="GridCell.Tab.0.left/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1600258800623" />
     <state width="1492" height="169" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1600863421951" />
     <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
     <state width="1876" height="141" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600950272302" />
-    <state width="1322" height="236" key="GridCell.Tab.0.right" timestamp="1601206552407">
+    <state width="1322" height="164" key="GridCell.Tab.0.right" timestamp="1602559991450">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599567515441" />
     <state width="1322" height="236" key="GridCell.Tab.0.right/0.0.1366.768/-319.-1080.1920.1080@0.0.1366.768" timestamp="1601206552407" />
-    <state width="1322" height="141" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600948888555" />
+    <state width="1322" height="164" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1602559991450" />
     <state width="1876" height="265" key="GridCell.Tab.0.right/0.0.1536.834/-5.-1080.1920.1050@-5.-1080.1920.1050" timestamp="1600258800623" />
     <state width="1492" height="169" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1600863421951" />
     <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599403160525" />
     <state width="1876" height="141" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600950272302" />
-    <state width="1492" height="169" key="GridCell.Tab.1.bottom" timestamp="1600863421951">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1322" height="164" key="GridCell.Tab.1.bottom" timestamp="1602559722018">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1322" height="164" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602559722018" />
     <state width="1492" height="169" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600863421951" />
-    <state width="1492" height="169" key="GridCell.Tab.1.center" timestamp="1600863421950">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1322" height="164" key="GridCell.Tab.1.center" timestamp="1602559722018">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1322" height="164" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1602559722018" />
     <state width="1492" height="169" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1600863421950" />
-    <state width="1492" height="169" key="GridCell.Tab.1.left" timestamp="1600863421950">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1322" height="164" key="GridCell.Tab.1.left" timestamp="1602559722018">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1322" height="164" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1602559722018" />
     <state width="1492" height="169" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1600863421950" />
-    <state width="1492" height="169" key="GridCell.Tab.1.right" timestamp="1600863421951">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1322" height="164" key="GridCell.Tab.1.right" timestamp="1602559722018">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1322" height="164" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1602559722018" />
     <state width="1492" height="169" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1600863421951" />
+    <state x="129" y="59" key="MergeDialog" timestamp="1602556735466">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="129" y="59" key="MergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1602556735466" />
+    <state x="318" y="144" key="MultipleFileMergeDialog" timestamp="1602556735472">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="318" y="144" key="MultipleFileMergeDialog/0.0.1366.768@0.0.1366.768" timestamp="1602556735472" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1600862958158">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -387,11 +383,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="384" y="109" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599394991239" />
-    <state x="346" y="52" width="673" height="716" key="search.everywhere.popup" timestamp="1601205543865">
+    <state x="346" y="52" width="673" height="716" key="search.everywhere.popup" timestamp="1602560720456">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599398842166" />
     <state x="346" y="52" width="673" height="716" key="search.everywhere.popup/0.0.1366.768/-319.-1080.1920.1080@0.0.1366.768" timestamp="1601205543865" />
+    <state x="346" y="52" width="673" height="716" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1602560720456" />
     <state x="389" y="56" width="756" height="777" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1600695085903" />
   </component>
   <component name="XDebuggerManager">
