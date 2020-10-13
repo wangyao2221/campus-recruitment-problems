@@ -1,4 +1,4 @@
-package whereWeGo.JYH;
+package history.whereWeGo.JYH;
 
 import java.util.Scanner;
 

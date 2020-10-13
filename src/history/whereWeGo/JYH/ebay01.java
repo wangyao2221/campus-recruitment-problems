@@ -1,7 +1,5 @@
-package whereWeGo.JYH;
+package history.whereWeGo.JYH;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ebay01 {
